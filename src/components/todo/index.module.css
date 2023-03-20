@@ -1,0 +1,11 @@
+.item {
+  letter-spacing: 0.2em;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.remove {
+  cursor: pointer;
+}

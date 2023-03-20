@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  margin: 1em;
+}
+
+span[data-filter-by] {
+  cursor: pointer;
+  padding: 4px;
+}
+
+.selected {
+  border: 1px solid white;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 4px;
+}
